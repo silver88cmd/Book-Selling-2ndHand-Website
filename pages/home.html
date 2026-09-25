@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookNest | Secondhand Book Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="home">
+    <div id="header-root"></div>
+
+    <div class="page-shell">
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow">Fresh picks • low prices</span>
+            <h1>Find your next favorite read at a fair price.</h1>
+            <p>Discover gently used books, rare editions, and student favorites — all curated for readers who love value and stories.</p>
+
+            <div class="hero-actions">
+              <a href="products.html" class="primary-btn large">Shop now</a>
+              <a href="sell.html" class="secondary-btn large">Sell your books</a>
+            </div>
+
+            <div class="stats-row">
+              <div>
+                <strong>25k+</strong>
+                <span>Books listed</span>
+              </div>
+              <div>
+                <strong>4.8/5</strong>
+                <span>Reader rating</span>
+              </div>
+              <div>
+                <strong>1,200+</strong>
+                <span>Happy buyers</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="book-showcase">
+              <div class="stacked-book book-one"></div>
+              <div class="stacked-book book-two"></div>
+              <div class="featured-book-card">
+                <img class="cover-art" alt="Featured book cover" src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80" />
+                <div class="book-details">
+                  <p class="label">Featured</p>
+                  <h3>Modern Poetry</h3>
+                  <div class="meta-row">
+                    <span>by Maya Cole</span>
+                    <strong>$18</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="promo-strip">
+          <div><span>📚</span> Free shipping over $35</div>
+          <div><span>✅</span> Quality checked condition</div>
+          <div><span>🔄</span> Easy exchange policy</div>
+        </section>
+
+        <section class="category-grid">
+          <article class="category-card" data-category="Fiction">
+            <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80" alt="Fiction books" />
+            <div>
+              <h3>Fiction</h3>
+              <p>Stories that stay with you.</p>
+            </div>
+          </article>
+
+          <article class="category-card" data-category="Academic">
+            <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80" alt="Academic books" />
+            <div>
+              <h3>Academic</h3>
+              <p>Study essentials and guides.</p>
+            </div>
+          </article>
+
+          <article class="category-card" data-category="Self-growth">
+            <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=900&q=80" alt="Self-growth books" />
+            <div>
+              <h3>Self-growth</h3>
+              <p>Mindset, habits, and clarity.</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="catalogue home-catalogue">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Popular now</span>
+              <h2>Trending books</h2>
+            </div>
+            <a href="products.html">View all →</a>
+          </div>
+
+          <div id="home-book-grid" class="book-grid"></div>
+        </section>
+
+        <section class="bottom-sections">
+          <div class="sell-panel">
+            <div>
+              <span class="eyebrow">Sell with us</span>
+              <h3>Turn your old books into cash.</h3>
+            </div>
+            <a class="primary-btn" href="sell.html">Start selling</a>
+          </div>
+
+          <div class="feature-grid">
+            <article>
+              <div class="icon">📦</div>
+              <h4>Quick dispatch</h4>
+              <p>Orders packed within 24 hours.</p>
+            </article>
+            <article>
+              <div class="icon">🛡️</div>
+              <h4>Verified quality</h4>
+              <p>Every book is inspected before listing.</p>
+            </article>
+            <article>
+              <div class="icon">💬</div>
+              <h4>Reader support</h4>
+              <p>Friendly guidance for every purchase.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="../src/data/books.js"></script>
+    <script src="../src/components/site-header.js"></script>
+    <script src="../src/js/app.js"></script>
+  </body>
+</html>

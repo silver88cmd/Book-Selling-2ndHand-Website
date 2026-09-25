@@ -1,0 +1,110 @@
+window.BOOKS = [
+  {
+    id: 1,
+    title: "The Silent Orchard",
+    author: "Elena Hart",
+    category: "Fiction",
+    price: 18,
+    rating: 4.8,
+    condition: "Like new",
+    image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+    description: "A thoughtful journey through memory, family, and the gentle pull of the past.",
+    details: ["Hardcover edition", "Signed by the author", "Page quality excellent"]
+  },
+  {
+    id: 2,
+    title: "Data Structures in Life",
+    author: "Mason Lee",
+    category: "Academic",
+    price: 22,
+    rating: 4.7,
+    condition: "Good",
+    image: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80",
+    description: "A highly practical guide to computational thinking and everyday problem solving.",
+    details: ["Used, but very readable", "Includes chapter notes", "Great for students"]
+  },
+  {
+    id: 3,
+    title: "The Morning Ritual",
+    author: "Ava Brooks",
+    category: "Self-growth",
+    price: 16,
+    rating: 4.9,
+    condition: "Like new",
+    image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=900&q=80",
+    description: "Build stronger habits, better focus, and a calmer routine with this reflective read.",
+    details: ["Minimal wear", "Highly highlighted less than 5 pages", "Popular study companion"]
+  },
+  {
+    id: 4,
+    title: "Civil War Atlas",
+    author: "Thomas Quinn",
+    category: "History",
+    price: 28,
+    rating: 4.6,
+    condition: "Good",
+    image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80",
+    description: "A richly illustrated breakdown of key events and turning points in civil conflict history.",
+    details: ["Illustrated maps", "Collector quality", "Strong binding"]
+  },
+  {
+    id: 5,
+    title: "The Hidden Door",
+    author: "Sofia Green",
+    category: "Mystery",
+    price: 20,
+    rating: 4.8,
+    condition: "Like new",
+    image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80",
+    description: "A slow-burn mystery with layered clues and a beautifully atmospheric setting.",
+    details: ["No dog-eared pages", "Strong suspense arc", "Perfect for cozy nights"]
+  },
+  {
+    id: 6,
+    title: "Pixel Kingdom",
+    author: "Nora Vale",
+    category: "Comics",
+    price: 14,
+    rating: 4.5,
+    condition: "Good",
+    image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80",
+    description: "A vibrant comic journey blending adventure, humor, and pixel-sized battles.",
+    details: ["Colorful artwork", "Well-preserved", "Great for collectors"]
+  },
+  {
+    id: 7,
+    title: "Little Lanterns",
+    author: "Harper Stone",
+    category: "Children",
+    price: 12,
+    rating: 4.9,
+    condition: "Like new",
+    image: "https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&w=900&q=80",
+    description: "A warm, imaginative read for young readers with a magical nighttime glow.",
+    details: ["Board book quality", "Clean pages", "Great for gifting"]
+  },
+  {
+    id: 8,
+    title: "The Essay Journal",
+    author: "Liam Reed",
+    category: "Writing",
+    price: 17,
+    rating: 4.7,
+    condition: "Good",
+    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80",
+    description: "A practical and inspiring collection of prompts for developing sharper writing habits.",
+    details: ["Filled with notes", "Easy to carry", "Great for creative practice"]
+  },
+  {
+    id: 9,
+    title: "Ocean of Echoes",
+    author: "Iris Bloom",
+    category: "Poetry",
+    price: 19,
+    rating: 4.8,
+    condition: "Like new",
+    image: "https://images.unsplash.com/photo-1474932430478-367dbb6832c1?auto=format&fit=crop&w=900&q=80",
+    description: "A lyrical volume of reflective poems exploring memory, longing, and the sea.",
+    details: ["New condition", "Beautiful cover", "Soft-touch finish"]
+  }
+];

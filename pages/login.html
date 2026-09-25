@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | BookNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="login">
+    <div id="header-root"></div>
+
+    <div class="page-shell auth-shell">
+      <div class="auth-card">
+        <div class="auth-header">
+          <span class="eyebrow">Welcome back</span>
+          <h1>Log in</h1>
+        </div>
+
+        <form id="login-form" class="auth-form">
+          <label>
+            <span>Email</span>
+            <input name="email" type="email" placeholder="you@example.com" required />
+          </label>
+
+          <label>
+            <span>ID number</span>
+            <input name="idNumber" type="text" placeholder="Enter your valid ID number" required />
+          </label>
+
+          <label>
+            <span>Password</span>
+            <input name="password" type="password" placeholder="Your password" required />
+          </label>
+
+          <button type="submit" class="primary-btn">Log in</button>
+        </form>
+
+        <p class="auth-switch">
+          Need an account?
+          <a href="signup.html">Create one</a>
+        </p>
+
+        <div id="login-message" class="auth-message" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <script src="../src/components/site-header.js"></script>
+    <script src="../src/js/auth.js"></script>
+  </body>
+</html>

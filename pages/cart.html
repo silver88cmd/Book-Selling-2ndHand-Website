@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart | BookNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="cart">
+    <div id="header-root"></div>
+
+    <div class="page-shell">
+      <main>
+        <div class="page-header">
+          <div>
+            <span class="eyebrow">Your basket</span>
+            <h1>Shopping cart</h1>
+          </div>
+          <a class="secondary-btn" href="products.html">Continue shopping</a>
+        </div>
+
+        <div class="layout-2col">
+          <section class="cart-panel">
+            <h3>Items</h3>
+            <div id="cart-items"></div>
+          </section>
+
+          <aside id="cart-summary" class="summary-card"></aside>
+        </div>
+      </main>
+    </div>
+
+    <script src="../src/data/books.js"></script>
+    <script src="../src/components/site-header.js"></script>
+    <script src="../src/js/app.js"></script>
+  </body>
+</html>

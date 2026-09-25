@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | BookNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="checkout">
+    <div id="header-root"></div>
+
+    <div class="page-shell">
+      <main>
+        <div class="page-header">
+          <div>
+            <span class="eyebrow">Secure checkout</span>
+            <h1>Payment details</h1>
+          </div>
+          <a class="secondary-btn" href="cart.html">Back to cart</a>
+        </div>
+
+        <div class="layout-2col">
+          <section id="checkout-panel" class="checkout-panel"></section>
+
+          <aside class="summary-card">
+            <h3>Order summary</h3>
+            <ul id="order-summary" class="summary-list"></ul>
+            <div id="confirmation-box" class="success-box" style="display:none;">Order placed successfully!</div>
+          </aside>
+        </div>
+      </main>
+    </div>
+
+    <script src="../src/data/books.js"></script>
+    <script src="../src/components/site-header.js"></script>
+    <script src="../src/js/app.js"></script>
+  </body>
+</html>

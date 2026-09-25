@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sell Your Book | BookNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="sell">
+    <div id="header-root"></div>
+
+    <div class="page-shell">
+      <main>
+        <div class="page-header">
+          <div>
+            <span class="eyebrow">Seller dashboard</span>
+            <h1>List your book</h1>
+            <p>Turn your old books into cash with a quick, simple listing.</p>
+          </div>
+          <a class="secondary-btn" href="products.html">Browse catalog</a>
+        </div>
+
+        <div class="layout-2col">
+          <section class="sell-panel-card">
+            <h3>Book details</h3>
+            <form class="sell-form" id="sell-form">
+              <div>
+                <label>Title</label>
+                <input name="title" type="text" placeholder="Enter book title" required />
+              </div>
+              <div>
+                <label>Author</label>
+                <input name="author" type="text" placeholder="Enter author name" required />
+              </div>
+              <div>
+                <label>Category</label>
+                <select name="category">
+                  <option>Fiction</option>
+                  <option>Academic</option>
+                  <option>Self-growth</option>
+                  <option>Comics</option>
+                  <option>Children</option>
+                  <option>History</option>
+                </select>
+              </div>
+              <div>
+                <label>Condition</label>
+                <select name="condition">
+                  <option>Like new</option>
+                  <option>Good</option>
+                  <option>Average</option>
+                </select>
+              </div>
+              <div>
+                <label>Price</label>
+                <input name="price" type="number" min="5" step="1" value="18" required />
+              </div>
+              <div>
+                <label>Cover image URL</label>
+                <input name="image" type="url" placeholder="https://..." />
+              </div>
+              <div class="form-full">
+                <label>Notes</label>
+                <textarea name="notes" placeholder="Add a short description of the book's condition and story."></textarea>
+              </div>
+              <div class="form-full form-actions">
+                <button class="primary-btn" type="submit">List book</button>
+                <button class="secondary-btn" type="reset">Reset</button>
+              </div>
+            </form>
+            <div id="success-box" class="success-box" style="display: none;"></div>
+          </section>
+
+          <aside class="summary-card">
+            <h3>Listing preview</h3>
+            <div id="listing-preview" class="listing-preview">
+              <img src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80" alt="Preview book" />
+              <div>
+                <div class="book-category">Fiction</div>
+                <h4>Preview title</h4>
+                <p>by Author Name</p>
+                <strong>$18</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </main>
+    </div>
+
+    <script src="../src/data/books.js"></script>
+    <script src="../src/components/site-header.js"></script>
+    <script src="../src/js/app.js"></script>
+  </body>
+</html>

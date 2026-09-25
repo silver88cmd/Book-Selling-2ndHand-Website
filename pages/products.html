@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Books | BookNest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-page="products">
+    <div id="header-root"></div>
+
+    <div class="page-shell">
+      <main>
+        <div class="page-header">
+          <div>
+            <span class="eyebrow">Browse collection</span>
+            <h1>Secondhand bestsellers</h1>
+            <p>Curated reads with quality checked and gently loved covers.</p>
+          </div>
+          <a class="primary-btn" href="sell.html">Sell a book</a>
+        </div>
+
+        <div class="catalog-toolbar">
+          <div class="filters" aria-label="Book filters">
+            <button class="chip active" data-category="All">All</button>
+            <button class="chip" data-category="Fiction">Fiction</button>
+            <button class="chip" data-category="Academic">Academic</button>
+            <button class="chip" data-category="Self-growth">Self-growth</button>
+            <button class="chip" data-category="Comics">Comics</button>
+            <button class="chip" data-category="Children">Children</button>
+          </div>
+
+          <select id="sort-select" aria-label="Sort books">
+            <option value="featured">Featured</option>
+            <option value="low">Price: Low to high</option>
+            <option value="high">Price: High to low</option>
+            <option value="rating">Top rated</option>
+          </select>
+        </div>
+
+        <div id="product-grid" class="book-grid"></div>
+      </main>
+    </div>
+
+    <script src="../src/data/books.js"></script>
+    <script src="../src/components/site-header.js"></script>
+    <script src="../src/js/app.js"></script>
+  </body>
+</html>
